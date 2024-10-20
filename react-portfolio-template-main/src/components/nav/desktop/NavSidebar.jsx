@@ -114,15 +114,15 @@ function NavSidebarBottomMenu({shouldShrink}) {
                 <LanguagePicker shrink={true}/>
             </NavSidebarGroupItem>
 
-            <NavSidebarGroupItem visible={canChangeTheme}>
+            {/* <NavSidebarGroupItem visible={canChangeTheme}>
                 <ThemePicker shrink={true}/>
-            </NavSidebarGroupItem>
+            </NavSidebarGroupItem> */}
 
-            {!shouldShrink && (
+            {/* {!shouldShrink && (
                 <NavSidebarGroupItem visible={isAnimatedCursorEnabled()}>
                     <CursorToggleButton/>
                 </NavSidebarGroupItem>
-            )}
+            )} */}
         </NavSidebarGroup>
     )
 }
